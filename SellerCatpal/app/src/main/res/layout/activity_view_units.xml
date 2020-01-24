@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_main"
+    tools:context="com.cdgpacific.sellercatpal.ViewUnitsActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BOX COUNT DETAILS"
+        android:textAlignment="center"
+        android:background="#7cb85e"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        >
+
+        <ScrollView
+            android:id="@+id/scrollViewId"
+            android:layout_width="fill_parent"
+            android:layout_height="420dp">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="0dp"
+                        android:text="YARD:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text=" NNN"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="BOX:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="XXXX"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="FULL UNITS:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="YYYYY"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView123"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="3/4 UNITS:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="ZZ"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="1/2 UNITS:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="1000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="1/4 UNITS:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="1000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="EMPTY UNITS:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="1000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="@string/question"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="1000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="TOTAL UNITS:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="1000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:src="@drawable/faded_line"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TableRow
+                    android:id="@+id/tableRow20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="TOTAL FULL\nEQUIVALENT UNITS:"
+                        android:textColor="#ffffff"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                    <TextView
+                        android:id="@+id/boxJ"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="1000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#faed56"
+                        android:gravity="right"
+                        android:layout_weight="1.0"
+                        android:layout_alignParentRight="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1bbc9b"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|right"
+        >
+        <Button
+            android:id="@+id/btnBack"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Back to BOX INFO"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:background="@color/btnBackground0"
+            android:textColor="@color/btnColor0"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

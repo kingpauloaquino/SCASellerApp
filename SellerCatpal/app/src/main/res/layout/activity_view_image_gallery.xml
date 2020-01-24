@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_image_gallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.cdgpacific.sellercatpal.ViewImageGalleryActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Sample"
+        android:padding="5dp"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

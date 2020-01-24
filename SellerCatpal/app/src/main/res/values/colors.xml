@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4e929f</color>
+    <color name="colorPrimaryDark">#20464d</color>
+    <color name="colorAccent">#282828</color>
+
+    <color name="appBackgroundColor">#282828</color>
+    <color name="colorDark">#282828</color>
+
+    // cat pal button style
+    <color name="btnBackground0">#3d4d67</color>
+    <color name="btnColor0">#bababa</color>
+    <color name="textColor0">#bababa</color>
+</resources>

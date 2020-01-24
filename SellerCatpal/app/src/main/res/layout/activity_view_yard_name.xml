@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_main"
+    tools:context="com.cdgpacific.sellercatpal.ViewYardNameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Yard to See Detail"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:background="#7cb85e"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_alignParentTop="true" />
+
+        <ListView
+            android:id="@+id/loadTrans"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="15dp"
+            >
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1bbc9b"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|right"
+        >
+        <Button
+            android:id="@+id/btnBack"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Back to Dashboard"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:background="@color/btnBackground0"
+            android:textColor="@color/btnColor0"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
