@@ -1,5 +1,7 @@
 package com.cdgpacific.sellercatpal;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -122,6 +124,7 @@ public class YardDetailsActivity extends AppCompatActivity {
                 JSONHelper json_help = new JSONHelper();
                 json = json_help.makeServiceCall(URL, JSONHelper.GET);
                 Log.d("Response: ", "> " + json);
+                Log.d("Response: ", "> " + json.length());
                 return json;
             } catch (InterruptedException e) {
             }
@@ -136,6 +139,14 @@ public class YardDetailsActivity extends AppCompatActivity {
     }
 
     private void populate_seller_dashboard(String json) {
+
+        Log.d("json_value: ", json);
+
+        if(json.length() == 0) {
+            messageAlertMessage("No records found.", "Information");
+            return;
+        }
+
         if (json != null) {
             try
             {
@@ -166,7 +177,25 @@ public class YardDetailsActivity extends AppCompatActivity {
             }catch(Exception e)
             {
                 e.printStackTrace();
+
+                Log.d("Exception: ", e.getMessage());
             }
         }
+    }
+
+    private void messageAlertMessage(String message, String title) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(message).setTitle(title)
+                .setCancelable(false)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // do nothing
+                        Intent i = new Intent(getApplicationContext(), ViewYardNameActivity.class);
+                        startActivity(i);
+                        finish();
+                    }
+                });
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 }
