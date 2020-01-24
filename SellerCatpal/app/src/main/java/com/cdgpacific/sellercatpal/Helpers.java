@@ -15,7 +15,7 @@ public class Helpers {
 
     public static String YardId;
 
-    public static String Host = "http://api.scrapcatapp.com";
+    public static String Host = "https://api.scrapcatapp.com";
 
     public static String QR_BOX_ID = null;
     public static String QR_BOX_SHOW_ID = null;
